@@ -23,10 +23,10 @@ public class BallScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!Physics.Raycast(transform.position, new Vector3(0, -1, 0)))
-        {
-            transform.position = new Vector3(0, 0, 0);
-        }
+        //if (!Physics.Raycast(transform.position, new Vector3(0, -1, 0)))
+        //{
+        //    transform.position = new Vector3(0, 0, 0);
+        //}
     }
 
     void OnCollisionEnter(Collision collision)
